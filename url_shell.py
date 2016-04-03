@@ -21,7 +21,7 @@ class ParseHeaders(cmd.Cmd):
         self.intro = self.intro + "Looking for help? Type `help'.\n"
 
         # Default URL.
-        self.url = 'http://apila.fr'
+        self.url = 'https://www.gentoo.org'
 
         # No HTTP response created (yet).
         self.httpresponse = None
